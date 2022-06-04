@@ -8,4 +8,8 @@ module.exports = {
   },
 
   extends: ['eslint-config-airbnb-base'].map(require.resolve),
+
+  rules: {
+    'import/prefer-default-export': 'off',
+  },
 }
