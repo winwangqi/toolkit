@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "singleQuote": true,
+  "semi": false,
+  "trailingComma": "all",
+  "endOfLine": "lf",
+  "useTabs": false,
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": [
+        "**/*.css",
+        "**/*.scss",
+        "**/*.less"
+      ],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}

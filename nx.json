@@ -1,7 +1,7 @@
 {
   "extends": "nx/presets/core.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "toolkit",
+  "npmScope": "winwangqi",
   "affected": {
     "defaultBase": "main"
   },
