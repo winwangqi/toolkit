@@ -1,5 +1,14 @@
 # @winwangqi/eslint-config-react-typescript
 
+## 1.1.5
+
+### Patch Changes
+
+- change import/no-extraneous-dependencies rule
+- Updated dependencies
+  - @winwangqi/eslint-config-react@1.1.5
+  - @winwangqi/eslint-config-typescript@1.1.5
+
 ## 1.1.4
 
 ### Patch Changes

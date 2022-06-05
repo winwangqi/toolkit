@@ -1,5 +1,11 @@
 # @winwangqi/eslint-config-core
 
+## 1.1.5
+
+### Patch Changes
+
+- change import/no-extraneous-dependencies rule
+
 ## 1.1.4
 
 ### Patch Changes
