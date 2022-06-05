@@ -1,5 +1,11 @@
 # @winwangqi/eslint-config-core
 
+## 1.1.2
+
+### Patch Changes
+
+- add import extensions
+
 ## 1.1.1
 
 ### Patch Changes

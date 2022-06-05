@@ -7,4 +7,23 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     '@winwangqi/eslint-config-core'
   ],
+
+  rules: {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "ts": "never"
+      }
+    ]
+  },
+
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', 'ts'],
+      },
+    },
+  },
 }

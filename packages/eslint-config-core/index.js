@@ -11,12 +11,19 @@ module.exports = {
 
   rules: {
     'import/prefer-default-export': 'off',
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never"
+      }
+    ]
   },
 
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js'],
       },
     },
   },
