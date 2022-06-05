@@ -1,5 +1,14 @@
 # @winwangqi/eslint-config-react-typescript
 
+## 1.1.3
+
+### Patch Changes
+
+- disable semi
+- Updated dependencies
+  - @winwangqi/eslint-config-react@1.1.3
+  - @winwangqi/eslint-config-typescript@1.1.3
+
 ## 1.1.2
 
 ### Patch Changes

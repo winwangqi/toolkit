@@ -17,7 +17,8 @@ module.exports = {
       {
         "js": "never"
       }
-    ]
+    ],
+    "semi": ["error", "never"],
   },
 
   settings: {

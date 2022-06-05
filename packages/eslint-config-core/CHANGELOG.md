@@ -1,5 +1,11 @@
 # @winwangqi/eslint-config-core
 
+## 1.1.3
+
+### Patch Changes
+
+- disable semi
+
 ## 1.1.2
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @winwangqi/eslint-config-react
 
+## 1.1.3
+
+### Patch Changes
+
+- disable semi
+- Updated dependencies
+  - @winwangqi/eslint-config-core@1.1.3
+
 ## 1.1.2
 
 ### Patch Changes
