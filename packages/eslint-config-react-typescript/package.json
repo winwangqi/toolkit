@@ -1,8 +1,8 @@
 {
   "name": "@winwangqi/eslint-config-react-typescript",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {
-    "@winwangqi/eslint-config-react": "^1.1.0",
-    "@winwangqi/eslint-config-typescript": "^1.1.0"
+    "@winwangqi/eslint-config-react": "workspace:^1.1.1",
+    "@winwangqi/eslint-config-typescript": "workspace:^1.1.1"
   }
 }

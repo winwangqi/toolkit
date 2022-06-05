@@ -1,5 +1,13 @@
 # @winwangqi/eslint-config
 
+## 1.1.1
+
+### Patch Changes
+
+- add resolver extensions
+- Updated dependencies
+  - @winwangqi/eslint-config-react-typescript@1.1.1
+
 ## 1.1.0
 
 ### Minor Changes
