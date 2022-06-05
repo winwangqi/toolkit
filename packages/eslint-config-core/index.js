@@ -11,14 +11,23 @@ module.exports = {
 
   rules: {
     'import/prefer-default-export': 'off',
-    "import/extensions": [
-      "error",
-      "ignorePackages",
+    'import/extensions': [
+      'error',
+      'ignorePackages',
       {
-        "js": "never"
-      }
+        js: 'never',
+      },
     ],
-    "semi": ["error", "never"],
+    semi: ['error', 'never'],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: false,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
+    'class-methods-use-this': 'off',
   },
 
   settings: {

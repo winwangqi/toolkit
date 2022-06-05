@@ -1,5 +1,13 @@
 # @winwangqi/eslint-config
 
+## 1.1.4
+
+### Patch Changes
+
+- change import and class rules
+- Updated dependencies
+  - @winwangqi/eslint-config-react-typescript@1.1.4
+
 ## 1.1.3
 
 ### Patch Changes

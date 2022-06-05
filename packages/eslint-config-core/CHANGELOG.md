@@ -1,5 +1,11 @@
 # @winwangqi/eslint-config-core
 
+## 1.1.4
+
+### Patch Changes
+
+- change import and class rules
+
 ## 1.1.3
 
 ### Patch Changes
