@@ -26,6 +26,8 @@ module.exports = {
       },
     ],
     'class-methods-use-this': 'off',
+    'no-undef': 'off',
+    'no-empty-function': 'off',
   },
 
   settings: {

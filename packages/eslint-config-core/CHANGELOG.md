@@ -1,5 +1,11 @@
 # @winwangqi/eslint-config-core
 
+## 1.1.6
+
+### Patch Changes
+
+- off no-undef and no-empty-function
+
 ## 1.1.5
 
 ### Patch Changes
