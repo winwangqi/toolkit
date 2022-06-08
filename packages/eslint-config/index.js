@@ -5,5 +5,7 @@ module.exports = {
     node: true,
     browser: true,
   },
-  extends: ['@winwangqi/eslint-config-react-typescript', 'eslint-config-prettier'].map(require.resolve),
+  extends: ['./react-typescript', 'eslint-config-prettier'].map(
+    require.resolve,
+  ),
 }

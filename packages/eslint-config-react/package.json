@@ -1,8 +1,0 @@
-{
-  "name": "@winwangqi/eslint-config-react",
-  "version": "1.1.6",
-  "dependencies": {
-    "@winwangqi/eslint-config-core": "workspace:^1.1.6",
-    "eslint-config-airbnb": "^19.0.4"
-  }
-}

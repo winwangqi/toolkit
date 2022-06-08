@@ -1,13 +1,24 @@
 {
   "name": "@winwangqi/eslint-config",
-  "version": "1.1.6",
+  "version": "1.0.1",
   "description": "Personal eslint config",
   "keywords": [
     "eslint",
     "config"
   ],
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./core": "./core.js",
+    "./typescript": "./typescript.js",
+    "./react": "./react.js",
+    "./react-typescript": "./react-typescript.js",
+    "./package.json": "./package.json"
+  },
   "dependencies": {
-    "@winwangqi/eslint-config-react-typescript": "workspace:^1.1.6",
+    "@typescript-eslint/eslint-plugin": "~5.18.0",
+    "@typescript-eslint/parser": "~5.18.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "8.1.0"
   }
 }

@@ -7,7 +7,7 @@ module.exports = {
     browser: true,
   },
 
-  extends: ['eslint-config-airbnb-base'].map(require.resolve),
+  extends: ['eslint-config-airbnb/base'].map(require.resolve),
 
   rules: {
     'import/prefer-default-export': 'off',

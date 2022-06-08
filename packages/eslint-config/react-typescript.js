@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    '@winwangqi/eslint-config-react',
-    '@winwangqi/eslint-config-typescript',
-  ].map(require.resolve),
+  extends: ['./react', './typescript'].map(require.resolve),
   rules: {
     'import/extensions': [
       'error',

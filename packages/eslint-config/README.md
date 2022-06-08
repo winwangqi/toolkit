@@ -1,7 +1,6 @@
 # @winwangqi/eslint-config
 
-Personal eslint config, includes `@winwangqi/eslint-config-react-typescript` and [`eslint-config-prettier
-`](https://github.com/prettier/eslint-config-prettier).
+Personal eslint config.
 
 ## Usage
 
