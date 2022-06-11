@@ -2,7 +2,11 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended', './core'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    './core',
+  ],
 
   rules: {
     'import/extensions': [
@@ -13,6 +17,7 @@ module.exports = {
         ts: 'never',
       },
     ],
+    'no-useless-constructor': 'off',
   },
 
   settings: {
@@ -20,6 +25,9 @@ module.exports = {
       node: {
         extensions: ['.js', '.ts'],
       },
+    },
+    typescript: {
+      alwaysTryTypes: true,
     },
   },
 }
