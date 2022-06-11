@@ -1,5 +1,11 @@
 # @winwangqi/eslint-config
 
+## 1.0.5
+
+### Patch Changes
+
+- add eslint-config-airbnb peerDeps
+
 ## 1.0.4
 
 ### Patch Changes
