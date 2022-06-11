@@ -1,6 +1,6 @@
 {
   "name": "@winwangqi/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Personal eslint config",
   "keywords": [
     "eslint",
@@ -20,6 +20,7 @@
     "@typescript-eslint/parser": "~5.18.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "8.1.0",
-    "eslint-import-resolver-typescript": "^2.7.1"
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0"
   }
 }

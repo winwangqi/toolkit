@@ -58,12 +58,14 @@ importers:
       eslint-config-airbnb: ^19.0.4
       eslint-config-prettier: 8.1.0
       eslint-import-resolver-typescript: ^2.7.1
+      eslint-plugin-import: ^2.26.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.18.0_6i2bmvsyeek7lcbbv6ovcmrcbe
       '@typescript-eslint/parser': 5.18.0_ud6rd4xtew5bv4yhvkvu24pzm4
       eslint-config-airbnb: 19.0.4_pefmhapqkyo3bhsmfeolqklhny
       eslint-config-prettier: 8.1.0_eslint@8.17.0
       eslint-import-resolver-typescript: 2.7.1_3yxiwxzsqipdmy4jwrlv6vgfmy
+      eslint-plugin-import: 2.26.0_clgpxdrrmbvphmrvk422bdziqu
 
   packages/prettier-config:
     specifiers: {}
