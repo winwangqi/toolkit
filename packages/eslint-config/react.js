@@ -11,6 +11,7 @@ module.exports = {
         jsx: 'never',
       },
     ],
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
   },
   settings: {
     'import/resolver': {
