@@ -1,5 +1,11 @@
 # @winwangqi/eslint-config
 
+## 1.0.8
+
+### Patch Changes
+
+- chore: change peerDeps version
+
 ## 1.0.7
 
 ### Patch Changes
