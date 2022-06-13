@@ -1,6 +1,6 @@
 {
   "name": "@winwangqi/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Personal eslint config",
   "keywords": [
     "eslint",
@@ -15,7 +15,7 @@
     "./react-typescript": "./react-typescript.js",
     "./package.json": "./package.json"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "~5.18.0",
     "@typescript-eslint/parser": "~5.18.0",
     "eslint": "~8.12.0",
